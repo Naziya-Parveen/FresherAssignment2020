@@ -2,9 +2,7 @@ package nuclei_assignment_4;
 
 
 import java.sql.Connection;
-//import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
-//import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -79,7 +77,7 @@ public class Sql {
 	             // Wake up producer thread 
 	             notify(); 
 	
-	             // and sleep 
+	             //sleep 
 	             Thread.sleep(1000); 
 	         } 
 		 }
