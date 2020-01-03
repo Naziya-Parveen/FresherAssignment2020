@@ -7,7 +7,7 @@ public class User implements Serializable{
 	String name;
 	int age, rollno;
 	String address;
-	String[] course= {"-","-","-","-","-","-"};
+	String[] course= {" "," "," "," "," ",""};
 	
 	public User(String name, int age, int rollno, String address, String[] course) {
 		
@@ -25,17 +25,5 @@ public class User implements Serializable{
 				+ Arrays.toString(course);
 	}
 
-/*
-	@Override
-	public int compareTo(user o) {
-		
-		if(this.name==o.name )
-			return this.rollno - o.rollno;
-		else
-			return this.name.compareToIgnoreCase(o.name);
-	}
-	
-	*/
-	
 	
 }
